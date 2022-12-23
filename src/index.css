@@ -1,0 +1,130 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* navabnr */
+/* navbar */
+.nav{
+  display: flex;
+  width: 100vw;
+  position: fixed;
+  z-index: 1000;
+  height: auto;
+  top: 0px;
+  box-shadow: rgba(112, 121, 131, 0.2) 0px 8px 24px;
+  flex-direction: row;
+  z-index: 1000;
+  height: 10vh;
+  align-items: center;
+}
+.ham{
+  align-self: flex-end;
+  width: 60px;
+  display: none;
+  justify-content: center;
+  margin-right: 30px;
+  flex-direction: column;
+  align-items: center;
+  height: 70px;
+}
+.modal{
+  width: 100vw;
+  height: 90vh;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4771d5;
+}
+.modal-div{
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.cross{
+  color: red;
+  font-size: 30px;
+}
+.hamburger{
+  font-size: 30px;
+}
+.x{
+  color:#4771d5;
+}
+
+.part-1{
+  width: 40%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  padding: 20px 0px;
+  padding-left: 50px;
+  font-size: 25px;
+}
+.part-2{
+width: 60%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-family: 'PT Sans', sans-serif;
+font-weight: bold;
+}
+.uno{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  padding-top: 15px;
+  align-items: center;
+}
+.login{
+  padding:  5px;
+  margin: 0px 10px;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #1daebf;
+display: flex;
+justify-content: center;
+border-radius: 10px;
+margin-bottom: 10px;
+align-items: center;
+text-decoration: none;
+color: white;
+  width: 100px;
+  height: 100%;
+}
+.becfund{
+  padding:  3px;
+  margin: 0px 10px;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #1daebf;
+display: flex;
+justify-content: center;
+border-radius: 10px;
+margin-bottom: 10px;
+align-items: center;
+text-decoration: none;
+color: white;
+  width: 200px;
+  height: 100%;
+}
+.mem{
+  padding:  5px;
+  margin: 0px 10px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.mem:hover{
+  color:#00ae8c ;
+}
